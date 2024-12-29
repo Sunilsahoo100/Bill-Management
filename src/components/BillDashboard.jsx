@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import AddBillForm from "./AddBillForm";
 import BillList from "./BillList";
 import BudgetCalculator from "./BudgetCalculator";
-import Navbar from "./Navbar";
+import Navbar from "./navbar";
 import { saveBillsToLocalStorage, loadBillsFromLocalStorage } from "../store/localStorageUtils";
 
 const BillDashboard = () => {
